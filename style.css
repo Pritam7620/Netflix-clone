@@ -23,7 +23,7 @@ width: 100%;
 .bar1{
  display: flex;
   align-items: center;
-  margin: 0px 40px ;
+  margin: 0px 60px ;
 }
 
 .bar2{
@@ -93,10 +93,12 @@ font-weight:900;
  width: 400px;
  background: transparent;
  border-radius: 5px;
- border: 1px solid rgb(240, 239, 236);
+ border: 1px solid rgb(239, 241, 241);
+color: aliceblue;
  
 }
 .bar2 select{
 background-color: rgb(212, 14, 120);
   background: transparent;
+ 
 }
