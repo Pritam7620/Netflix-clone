@@ -102,3 +102,7 @@ background-color: rgb(212, 14, 120);
   background: transparent;
  
 }
+.bar2 option{
+  color: black;
+ background: transparent;
+}
