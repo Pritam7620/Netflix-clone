@@ -76,10 +76,11 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 .hero1 p{
-  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero1 h1{
 font-weight:900;
+line-height: normal;
 
 }
 .hero1 a{
@@ -280,9 +281,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 .Questions{
   
-height: 800px;
+height: 1250px;
 border: 1px solid rgb(15, 11, 11);
-  background-color: #01010c;
+  background-color: #030304;
   gap: 20px;
 
   
@@ -392,6 +393,7 @@ i{
 .ready{
   color: rgb(191, 195, 199);
   text-align: center;
+  
 }
 
 .email1 input{
@@ -420,4 +422,62 @@ font-weight: 400;
 }
 .call a{
   color: rgb(237, 230, 230); 
+}
+
+.lists{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  padding: 0px 200px;
+ 
+}
+.list1{
+  height: 160px;
+  width: 200px;
+  
+}
+.list2{
+  height: 160px;
+  width: 200px;
+  
+}
+.list3{
+  height: 160px;
+  width: 200px;
+ 
+}
+.list4{
+  height: 160px;
+  width:200px;
+ 
+}
+.lists a{
+  text-align: left;
+  line-height: 2;
+ text-decoration: blanchedalmond;
+  font-weight: 300;
+  color: rgb(145, 148, 150);
+  
+  list-style :none;
+}
+
+.langlast select{
+ padding: 10px 10px; 
+ margin-left: 200px;
+  border-radius: 4px;
+  font-weight: 400;
+  width: 140px;
+  background: transparent;
+  color: aliceblue;
+  
+}
+.lastp{
+color: rgb(145, 148, 150);
+margin-left: 200px;
+font-weight:100;
+font-family: Arial, Helvetica, sans-serif;
+}
+.lastp a{
+  color: rgb(22, 85, 124);
 }
