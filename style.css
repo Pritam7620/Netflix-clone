@@ -56,7 +56,6 @@ gap: 20px;
 .head-img{
 background-image:url("AU-en-20171106-popsignuptwoweeks-perspective_alpha_website_large.webp");
  background-color: rgba(0, 0, 0, 0.6); 
-height: 1500px;
   background-blend-mode: darken;
 
 
@@ -120,10 +119,17 @@ margin: 40px;
 .trendinghead h2{
 color: rgb(223, 232, 240);
 font-weight: 700;
+margin-top: 40px;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 text-shadow: 30px;
 
+
+}
+
+.trendingtr{
+
+background-image: url("Screenshot\ 2026-01-29\ 220652.png");
 
 }
 .trending1{
@@ -170,46 +176,248 @@ text-shadow: 30px;
 }
 
 
-.join-head h2{
-margin-top: 200px;
 
+
+.join-head h2{
+margin-top: 250px;
+text-align: center;
   color: aliceblue;
 }
 .join{
-  margin-top: 40px;
+  
  display: flex;
  justify-content: space-between;
  align-items: center;
 height: 240px;
- 
   color: aliceblue;
+  margin: 10px 40px;
 }
-.join p{
-  margin-top:  20px;
-}
+
 
 .join1{
-  width: 220px;
- height: 220px;
-background-color: rgb(189, 139, 236);
+  margin-top: 40px;
+   width: 280px;
+ border-radius: 16px;
+ height: 240px;
+ background: radial-gradient(
+      circle at bottom right,
+      #b81d6a 0%,
+      #4b0f3f 25%,
+      #1a1f3b 55%,
+      #0b0b14 80%
+  );
 
 }
+
+.join1 h3,p{
+  margin: 40px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.join2 h3,p{
+
+font-family: Arial, Helvetica, sans-serif;
+ margin: 40px 8px;
+}
+.join3 h3,p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px 8px;
+}
+.join4 h3,p{
+  font-family: Arial, Helvetica, sans-serif;
+ margin: 40px 8px;
+}
+
 .join2{
-  width: 220px;
- height: 220px;
-  
- background-color: rgb(189, 139, 236);
+ width: 280px;
+ border-radius: 16px;
+ height: 240px;
+ margin-top: 40px;
+ 
+   background: radial-gradient(
+      circle at bottom right,
+      #b81d6a 0%,
+      #4b0f3f 25%,
+      #1a1f3b 55%,
+      #0b0b14 80%
+  );
 
 }
 .join3{
-  background-color: rgb(189, 139, 236);
- width: 220px;
- height: 220px;
+ background: radial-gradient(
+      circle at bottom right,
+      #b81d6a 0%,
+      #4b0f3f 25%,
+      #1a1f3b 55%,
+      #0b0b14 80%
+  );
+  margin-top: 40px;
+ width: 280px;
+ border-radius: 16px;
+ height: 240px;
 }
 .join4{
- background-color: rgb(189, 139, 236);
- width: 200px;
- height: 220px;
+ background: radial-gradient(
+      circle at bottom right,
+      #b81d6a 0%,
+      #4b0f3f 25%,
+      #1a1f3b 55%,
+      #0b0b14 80%
+  );
+  margin-top: 40px;
+  width: 280px;
+ border-radius: 16px;
+ height: 240px;
+
 }
 
+.middleimg{
 
+  background-image: url("8a5fc9a50fe2a4405ae6e8c5b3dd8061.jpg");
+  border-top: 1px solid rgb(193, 127, 127);
+  height: 880px
+}
+
+.Questions{
+  
+height: 800px;
+border: 1px solid rgb(15, 11, 11);
+  background-color: #01010c;
+  gap: 20px;
+
+  
+}
+
+.Questions1{
+  display: flex;
+ justify-content: space-between;
+  padding: 16px;
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+  color: rgb(214, 218, 221);
+  
+  border: 1px solid rgb(10, 12, 10);
+  background-color: rgb(73, 72, 72);
+
+  
+ 
+}
+.Questions2{
+  display: flex;
+ justify-content: space-between;
+   padding: 16px;
+  color: rgb(214, 218, 221);
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+  border: 1px solid rgb(8, 8, 8);
+  background-color: rgb(73, 72, 72);
+}
+.Questions3{
+  display: flex;
+ justify-content: space-between;
+   padding: 16px;
+  color: rgb(214, 218, 221);
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+  border: 1px solid rgb(8, 8, 8);
+  background-color: rgb(73, 72, 72);
+}
+.Questions4{
+  display: flex;
+ justify-content: space-between;
+   padding: 16px;
+  color: rgb(214, 218, 221);
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+   border: 1px solid rgb(8, 8, 8);
+  background-color: rgb(73, 72, 72);
+}
+.Questions5{
+  display: flex;
+ justify-content: space-between;
+   padding: 16px;
+  color: rgb(214, 218, 221);
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+   border: 1px solid rgb(8, 8, 8);
+  background-color: rgb(73, 72, 72);
+}
+.Questions6{
+  display: flex;
+ justify-content: space-between;
+   padding: 16px;
+  color: rgb(214, 218, 221);
+  margin: 14px 200px;
+  border-radius: 1px;
+  height: 60px;
+  border: 1px solid rgb(8, 8, 8);
+background-color: rgb(73, 72, 72);
+}
+
+.headQuestions{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+i{
+ 
+  margin-right: 26px;
+  font-size: larger;
+  color: rgb(209, 195, 195);
+}
+.Questions1:hover{
+  background-color: rgb(101, 97, 97);
+}
+.Questions2:hover{
+  background-color: rgb(101, 97, 97);
+}
+.Questions3:hover{
+  background-color: rgb(101, 97, 97);
+}
+.Questions4:hover{
+  background-color: rgb(101, 97, 97);
+}
+.Questions5:hover{
+  background-color: rgb(101, 97, 97);
+}
+.Questions6:hover{
+  background-color: rgb(101, 97, 97);
+}
+.ready{
+  color: rgb(191, 195, 199);
+  text-align: center;
+}
+
+.email1 input{
+ padding: 18px;
+ width: 400px;
+ background: transparent;
+ border-radius: 5px;
+ border: 1px solid rgb(239, 241, 241);
+color: rgb(236, 238, 239);
+}
+.email1 a{
+font-weight: 400;
+ text-decoration: none;
+ color: rgb(237, 230, 230); 
+ background-color: brown;
+ padding: 18px 10px; 
+ width: 140px;
+ padding-left: 40px;
+ border-radius: 4px;
+
+}
+
+.call{
+ color: rgb(237, 230, 230); 
+ margin: 20px 200px;
+}
+.call a{
+  color: rgb(237, 230, 230); 
+}
